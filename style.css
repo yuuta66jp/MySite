@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 }
 
-.clearfix: after {
+.clearfix::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -78,7 +78,6 @@ header {
 }
 
 #portfolio {
-	width: 100%;
 	background-color: #ECEFF1;
 }
 
@@ -154,7 +153,8 @@ header {
 }
 
 #feature {
-	width: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .strength-group {
@@ -186,7 +186,6 @@ header {
 }
 
 #profile {
-	width: 100%;
 	background-color: #ECEFF1;
 }
 
@@ -225,9 +224,6 @@ header {
 	font-size: 16px;
 }
 
-#contact {
-	width: 100%;
-}
 
 .contact-group {
 	width: 800px;
@@ -250,12 +246,12 @@ header {
 	margin: 0 auto;
 }
 
-.right-contact-content .fa {
-	font-size: 50px;
+.right-contact-content .fab {
+	font-size: 40px;
 	margin-right: 20px;
 }
 
-.right-contact-content .fa:last-child {
+.right-contact-content .fab:last-child {
 	margin-right: 0;
 }
 
@@ -415,13 +411,10 @@ header {
 	margin-top: 20px;
 }
 
-.right-contact-content .fa {
+.right-contact-content .fab {
 	font-size: 50px;
 	margin-right: 8px;
 }
-
-
-
 
 }
 
